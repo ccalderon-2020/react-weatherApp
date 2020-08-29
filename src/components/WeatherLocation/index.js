@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import convert from 'convert_units';
+import convert from 'convert-units';
 import Location from './Location';
 import WeatherData from './WeatherData';
 import './styles.css';
