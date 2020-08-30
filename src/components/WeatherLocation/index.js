@@ -29,7 +29,7 @@ class WeatherLocation extends Component{
         }
     }
     getTemp = kelvin => {
-        return convert(kelvin).from("K").to("C");
+        return Math.round(convert(kelvin).from("K").to("C"));
     }
     getWeatherState = weather_data =>{
         return SUNNY;
